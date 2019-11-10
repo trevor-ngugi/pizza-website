@@ -14,3 +14,10 @@ var onions=new Topping("onions",120,60,30);
 var periperiChicken=new Topping("periperi chicken",200,100,50);
 var sweetcorn=new Topping("sweet corn",160,80,40);
 
+function Size(size){
+    this.size=size;
+}
+var large=new Size(700);
+var medium=new Size(500);
+var small=new Size(200);
+
