@@ -1,3 +1,4 @@
+// business logic
 function Topping(name,large,medium,small){
     this.name=name;
     this.large=large;
