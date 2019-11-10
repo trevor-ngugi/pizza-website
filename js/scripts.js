@@ -21,3 +21,8 @@ var large=new Size(700);
 var medium=new Size(500);
 var small=new Size(200);
 
+function Crust(type){
+    this.type=type;
+}
+var thick=new Crust(150);
+var thin=new Crust(100);
