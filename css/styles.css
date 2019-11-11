@@ -1,18 +1,11 @@
 .section-one{
-    background-color: rgba(255, 0, 0, 0.659);
-    margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 10px;
-  margin-left: 10px;
-
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-bottom: 500px;
-  padding-left: 10px;
-
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+  font-size: 40px;
+
+  background: url(../img/hawain.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 h1{
     text-align: center;
@@ -21,3 +14,18 @@ h1{
     background-color:rgba(255, 255, 0, 0.707)
 
 }
+#section-one{
+   
+    background-color: rgba(255, 0, 0, 0.469);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 500px;
+    padding-left: 10px;
+}
+
+
