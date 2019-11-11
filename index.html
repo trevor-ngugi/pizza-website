@@ -192,7 +192,7 @@
                                     <div class="toppings-form">
                                         <form >
                                             toppings <br>
-                                            <input list="toppings">
+                                            <input  id="topping" list="toppings">
                                             <datalist id="toppings">
                                                 <option value="marinated chicken">
                                                 <option value="marinated BBQ steak">
@@ -211,7 +211,7 @@
                                     <div class="sizes form">
                                         <form>
                                             which size do you want: <br>
-                                            <input list="sizes">
+                                            <input  id="sizing" list="sizes">
                                             <datalist id="sizes">
                                                 <option value="large">
                                                 <option value="medium">
@@ -223,11 +223,10 @@
                                     <div class="crusts form">
                                         <form>
                                             type of crust: <br>
-                                            <input list="crusts type">
+                                            <input  id="crusts" list="crusts type">
                                             <datalist id="crusts type">
-                                                <option value="large">
-                                                <option value="medium">
-                                                <option value="small">
+                                                <option value="thin">
+                                                <option value="thick">
                                             </datalist>
                                         </form>
                                     </div>
@@ -235,7 +234,7 @@
                                     <div class="quantity">
                                         <form >
                                             Quantity :<br>
-                                            <input type="number" name="quantity" min="0" >
+                                            <input type="number" name="quantity"  id="numbers" min="0" >
                                         </form>
 
                                     </div>
@@ -259,7 +258,7 @@
                                         <p>customer name: <span class="customer-name"></span></p>
                                         <p>your pizza design</p>
                                         <p>toppings</p>
-                                        <ul id="toppings">
+                                        <ul id="toppings-order">
 
                                         </ul>
                                         <p>size</p>
@@ -272,7 +271,7 @@
                                         </ul>
                                         <p>quantity</p>
                                         <ul id="pizza-quantity">
-                                            
+
                                         </ul>
                                         <p>total=</p>
                                         <button type="submit" class="btn btn-success">confirm order</button>

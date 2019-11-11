@@ -105,10 +105,18 @@ $(document).ready(function(){
     $("#submit-order").click(function(event) {
         event.preventDefault();
         var customerName=$("input#customers-name").val();
-        
+        var topping=$("#topping").val();
+        var size=$("#sizing").val();
+        var crust=$("#crusts").val()
+        var quantity=$("#numbers").val();
         $(".show-order").show();
 
         $(".customer-name").append( customerName );
+        $("#toppings-order").text( topping );
+        $("#pizza-size").text(size);
+        $("#crust-type").text(crust);
+        $("#pizza-quantity").text(quantity);
+
       });
 
 })
