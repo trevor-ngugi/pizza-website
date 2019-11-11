@@ -180,71 +180,75 @@
             <h1>place your order</h1>
                 <div class="row">
                     <div class="col-md-6">
-                        <form id="new-order">
-                            <div class="form-group">
-                                <label for="new-first-name">customer's name</label>
-                                <input type="text" class="form-control" id="customers-name">
-                            </div>
+                        <div class="card">
+                            <h3 class="card-header">Featured</h3>
+                            <div class="card-body">
+                                <form id="new-order">
+                                    <div class="form-group">
+                                        <label for="new-first-name">customer's name</label>
+                                        <input type="text" class="form-control" id="customers-name">
+                                    </div>
 
-                            <div class="toppings-form">
-                                <form >
-                                    toppings <br>
-                                    <input list="toppings">
-                                    <datalist id="toppings">
-                                        <option value="marinated chicken">
-                                        <option value="marinated BBQ steak">
-                                        <option value="bacon">
-                                        <option value="pineapple">
-                                        <option value="beef mushroom">
-                                        <option value="beef pepperoni">
-                                        <option value="tomatoes">
-                                        <option value="onions">
-                                        <option value="periperi chicken">
-                                        <option value="sweet corn">                
-                                    </datalist>
+                                    <div class="toppings-form">
+                                        <form >
+                                            toppings <br>
+                                            <input list="toppings">
+                                            <datalist id="toppings">
+                                                <option value="marinated chicken">
+                                                <option value="marinated BBQ steak">
+                                                <option value="bacon">
+                                                <option value="pineapple">
+                                                <option value="beef mushroom">
+                                                <option value="beef pepperoni">
+                                                <option value="tomatoes">
+                                                <option value="onions">
+                                                <option value="periperi chicken">
+                                                <option value="sweet corn">                
+                                            </datalist>
+                                        </form>
+                                    </div>
+
+                                    <div class="sizes form">
+                                        <form>
+                                            which size do you want: <br>
+                                            <input list="sizes">
+                                            <datalist id="sizes">
+                                                <option value="large">
+                                                <option value="medium">
+                                                <option value="small">
+                                            </datalist>
+                                        </form>
+                                    </div>
+
+                                    <div class="crusts form">
+                                        <form>
+                                            type of crust: <br>
+                                            <input list="crusts type">
+                                            <datalist id="crusts type">
+                                                <option value="large">
+                                                <option value="medium">
+                                                <option value="small">
+                                            </datalist>
+                                        </form>
+                                    </div>
+
+                                    <div class="quantity">
+                                        <form >
+                                            Quantity :<br>
+                                            <input type="number" name="quantity" min="0" >
+                                        </form>
+
+                                    </div>
+
+                                    <div class="add-pizza-form">
+
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">submit order</button>
+                                    <span class="btn btn-primary" id="add-toppings">Another topping</span>
+                                    <span class="btn btn-primary" id="add-pizza">Another pizza</span>
                                 </form>
                             </div>
-
-                            <div class="sizes form">
-                                <form>
-                                    which size do you want: <br>
-                                    <input list="sizes">
-                                    <datalist id="sizes">
-                                        <option value="large">
-                                        <option value="medium">
-                                        <option value="small">
-                                    </datalist>
-                                </form>
-                            </div>
-
-                            <div class="crusts form">
-                                <form>
-                                    type of crust: <br>
-                                    <input list="crusts type">
-                                    <datalist id="crusts type">
-                                        <option value="large">
-                                        <option value="medium">
-                                        <option value="small">
-                                    </datalist>
-                                </form>
-                            </div>
-
-                            <div class="quantity">
-                                <form >
-                                    Quantity :<br>
-                                    <input type="number" name="quantity" min="0" >
-                                </form>        
-                            </div>
-
-                            <div class="add-pizza-form">
-
-                            </div>
-                            <button type="submit" class="btn btn-primary">submit order</button>
-                            <span class="btn btn-primary" id="add-toppings">Another topping</span>
-                            <span class="btn btn-primary" id="add-pizza">Another pizza</span>
-
-                        </form>
-
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div id="show-order">
