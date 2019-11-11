@@ -118,6 +118,13 @@ $(document).ready(function(){
         $("#pizza-quantity").text(quantity);
 
       });
-      
+    $("#yes").click(function(event){
+        event.preventDefault();
+        $(".section-six").show();
+    })
+    $("#no").click(function(event){
+        event.preventDefault();
+        $(".section-six").hide();
+    })
 
 })
