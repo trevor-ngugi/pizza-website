@@ -102,5 +102,13 @@ $(document).ready(function(){
                             '</div>'
         )
     })
-    
+    $("#submit-order").click(function(event) {
+        event.preventDefault();
+        var customerName=$("input#customers-name").val();
+        
+        $(".show-order").show();
+
+        $(".customer-name").append( customerName );
+      });
+
 })
