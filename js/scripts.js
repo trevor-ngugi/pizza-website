@@ -34,6 +34,7 @@ $(document).ready(function(){
         $(".toppings-form").append('<form >'+
             'additional toppings <br>'+
             '<input list="toppings">'+
+            '<id="new-topping">'+
             '<datalist id="toppings">'+
                 '<option value="marinated chicken">'+
                 '<option value="marinated BBQ steak">'+
@@ -105,7 +106,7 @@ $(document).ready(function(){
     $("#submit-order").click(function(event) {
         event.preventDefault();
         var customerName=$("input#customers-name").val();
-        var topping=$("#topping").val();
+        var topping=$("#topping").val() +$("#new-topping").val();
         var size=$("#sizing").val();
         var crust=$("#crusts").val()
         var quantity=$("#numbers").val();
