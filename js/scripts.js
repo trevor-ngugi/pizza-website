@@ -27,3 +27,27 @@ function Crust(type){
 }
 var thick=new Crust(150);
 var thin=new Crust(100);
+
+//user interface logic
+$(document).ready(function(){
+    $("#add-toppings").click(function(){
+        $(".toppings-form").append('<form >'+
+            'additional toppings <br>'+
+            '<input list="toppings">'+
+            '<datalist id="toppings">'+
+                '<option value="marinated chicken">'+
+                '<option value="marinated BBQ steak">'+
+                '<option value="bacon">'+
+                '<option value="pineapple">'+
+                '<option value="beef mushroom">'+
+                '<option value="beef pepperoni">'+
+                '<option value="tomatoes">'+
+                '<option value="onions">'+
+                '<option value="periperi chicken">'+
+                '<option value="sweet corn">'+                
+            '</datalist>'+
+        '</form>')
+    })
+
+    
+})
