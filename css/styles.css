@@ -31,5 +31,11 @@ h1{
     padding-bottom: 500px;
     padding-left: 10px;
 }
+.section-three{
+    border-style: inset;
+    border-color: red;
+    border-width:20px;
+    
+}
 
 
