@@ -49,5 +49,57 @@ $(document).ready(function(){
         '</form>')
     })
 
-    
+    $("#add-pizza").click(function(){
+        $(".add-pizza-form").append(
+            '<div class="toppings-form">'+
+                                '<form >'+
+                                   ' toppings <br>'+
+                                    '<input list="toppings">'+
+                                    '<datalist id="toppings">'+
+                                        '<option value="marinated chicken">'+
+                                        '<option value="marinated BBQ steak">'+
+                                        '<option value="bacon">'+
+                                        '<option value="pineapple">'+
+                                        '<option value="beef mushroom">'+
+                                        '<option value="beef pepperoni">'+
+                                        '<option value="tomatoes">'+
+                                        '<option value="onions">'+
+                                        '<option value="periperi chicken">'+
+                                        '<option value="sweet corn">'+                
+                                    '</datalist>'+
+                                '</form>'+
+                            '</div>'+
+
+                            '<div class="sizes form">'+
+                                '<form>'+
+                                    'which size do you want: <br>'+
+                                    '<input list="sizes">'+
+                                    '<datalist id="sizes">'+
+                                        '<option value="large">'+
+                                        '<option value="medium">'+
+                                        '<option value="small">'+
+                                    '</datalist>'+
+                                '</form>'+
+                            '</div>'+
+
+                            '<div class="crusts form">'+
+                                '<form>'+
+                                    'type of crust: <br>'+
+                                    '<input list="crusts type">'+
+                                    '<datalist id="crusts type">'+
+                                        '<option value="large">'+
+                                        '<option value="medium">'+
+                                        '<option value="small">'+
+                                    '</datalist>'+
+                                '</form>'+
+                            '</div>'+
+
+                            '<div class="quantity">'+
+                                '<form >'+
+                                    'Quantity :<br>'+
+                                    '<input type="number" name="quantity" min="0" >'+
+                                '</form>'+        
+                            '</div>'
+        )
+    })
 })
