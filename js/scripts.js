@@ -118,5 +118,6 @@ $(document).ready(function(){
         $("#pizza-quantity").text(quantity);
 
       });
+      
 
 })
