@@ -20,7 +20,7 @@ h1{
 }
 #section-one{
    
-    background-color: rgba(255, 0, 0, 0.469);
+  /* background-color: rgba(255, 0, 0, 0.469);*/
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 10px;
@@ -30,6 +30,8 @@ h1{
     padding-right: 10px;
     padding-bottom: 500px;
     padding-left: 10px;
+
+    color:yellow;
 }
 .section-three{
     border-style: inset;
@@ -47,6 +49,9 @@ h1{
     display:none;
 }
 .section-five{
+    display: none;
+}
+.section-seven{
     display: none;
 }
 

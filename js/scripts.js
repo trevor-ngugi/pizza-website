@@ -33,8 +33,8 @@ $(document).ready(function(){
     $("#add-toppings").click(function(){
         $(".toppings-form").append('<form >'+
             'additional toppings <br>'+
-            '<input list="toppings">'+
-            '<id="new-topping">'+
+            '<input id="new-topping" list="toppings">'+
+            
             '<datalist id="toppings">'+
                 '<option value="marinated chicken">'+
                 '<option value="marinated BBQ steak">'+
@@ -121,12 +121,25 @@ $(document).ready(function(){
       });
     $("#yes").click(function(event){
         event.preventDefault();
-        $(".section-six").show();
-       prompt("enter address");
+        prompt("enter address");
+        alert("your masterpiece food will be delivered in the next one hour");
+        
+
+        var customerName=$("input#customers-name").val();
+        var topping=$("#topping").val() +$("#new-topping").val();
+        var size=$("#sizing").val();
+        var crust=$("#crusts").val()
+        var quantity=$("#numbers").val();
+        $(".customer-name").append( customerName );
+        $("#toppings-order").text( topping );
+        $("#pizza-size").text(size);
+        $("#crust-type").text(crust);
+        $("#pizza-quantity").text(quantity);
+
     })
     $("#no").click(function(event){
         event.preventDefault();
-        $(".section-six").hide();
+        
     })
     $("#show-delivery").click(function(event){
         event.preventDefault();
