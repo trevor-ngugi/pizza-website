@@ -122,10 +122,15 @@ $(document).ready(function(){
     $("#yes").click(function(event){
         event.preventDefault();
         $(".section-six").show();
+       prompt("enter address");
     })
     $("#no").click(function(event){
         event.preventDefault();
         $(".section-six").hide();
+    })
+    $("#show-delivery").click(function(event){
+        event.preventDefault();
+        $(".section-five").show();
     })
 
 })
