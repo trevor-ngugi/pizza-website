@@ -1,12 +1,17 @@
-# delani studio
-#### Brief landing page for delani studio
+# La Casa De Pizza
+#### pizza website
 #### By trevor ngugi
 ## Description
-this is a website landing page which shows delani studio project of IP3
+this is my pizza website page that allows customers to order their pizza by selecting the size , toppings they want and type of crust 
+
 ## Setup/Installation Requirements
 enter the url website
+## github link
+link [https://github.com/trevor-ngugi/pizza-website]
+
 ## Known Bugs
-cannot hold information of user email
+cannot calculate the total price 
+connot show the checkout receipt
 ## Technologies Used
 *used html ,used custom css,used javascript
 ## Support and contact details
