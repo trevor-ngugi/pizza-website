@@ -3,6 +3,7 @@
 #### By trevor ngugi
 ## Description
 this is my pizza website page that allows customers to order their pizza by selecting the size , toppings they want and type of crust 
+<img src= "img/Screenshot from 2019-11-12 10-48-57.png">
 
 ## Setup/Installation Requirements
 enter the url website
